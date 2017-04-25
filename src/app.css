@@ -1,0 +1,46 @@
+body * {
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+}
+
+.table-container {
+	padding: 20px;
+}
+.table-container .table {
+	border: 1px solid #333;
+}
+.table-container .table .row {
+	display: flex;
+}
+.table-container .table .row .tile {
+	height: 50px;
+	width: 50px;
+}
+.table-container .table .row:nth-child(even) .tile:nth-child(even) {
+	background: #333;
+}
+.table-container .table .row:nth-child(odd) .tile:nth-child(odd) {
+	background: #333;
+}
+
+.controls {
+	min-width: 200px;
+	padding: 20px;
+}
+
+.button {
+	cursor: pointer;
+	min-width: 120px;
+	height: 40px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	color: white;
+	background: #06c;
+	text-align: center;
+	line-height: 38px;
+	margin-bottom: 10px;
+	user-select: none;
+}
