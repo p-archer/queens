@@ -1,0 +1,22 @@
+#+TITLE: Queens
+
+* Description
+* Algorithm overview
+* Tasks
+** TODO create description
+** TODO create algorithm overview
+*** TODO install plantuml
+** TODO add initialise population functionality
+** TODO add main loop
+** TODO add parent selection
+** TODO add mating algorithm
+** TODO add mutation algorithm
+** TODO add visual representation
+*** TODO hook up fittest individual with table
+*** TODO draw chart for generation fitness
+** TODO add settings menu
+*** TODO mutation percentage
+*** TODO population settings [0/2]
+	- [ ] size
+	- [ ] elite group size
+*** TODO max generation cap
