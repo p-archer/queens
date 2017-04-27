@@ -4,7 +4,9 @@
   Small js application using genetic algorithm to place 8 queens on a chess board. All the examples I found on the internet where unnecessarily complicated and long. This aims to be dumb and short, but effective.
 * Algorithm overview
   The algorithm is kept very simple.
+
   [[./docs/alg.png]]
+
 * Tasks                                                            :noexport:
 ** DONE create description
    CLOSED: [2017-04-26 Wed 18:16]
@@ -14,7 +16,10 @@
 	CLOSED: [2017-04-26 Wed 18:31]
 *** DONE create diagram
 	CLOSED: [2017-04-26 Wed 18:32]
-** TODO add initialise population functionality
+** DONE add initialise population functionality
+   CLOSED: [2017-04-27 Thu 21:51]
+** DONE create getFitness function
+   CLOSED: [2017-04-27 Thu 21:52]
 ** TODO add main loop
 ** TODO add parent selection
 ** TODO add mating algorithm

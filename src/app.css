@@ -17,7 +17,17 @@ body {
 }
 .table-container .table .row .tile {
 	height: 50px;
+	position: relative;
 	width: 50px;
+}
+.table-container .table .row .tile.queen:after {
+	content: '\265b';
+	color: red;
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 50px;
+	margin-left: 8px;
+	text-align: center;
 }
 .table-container .table .row:nth-child(even) .tile:nth-child(even) {
 	background: #333;
